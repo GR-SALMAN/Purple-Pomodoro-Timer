@@ -1,0 +1,120 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+h1{
+    margin: 10px;
+}
+body{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0 auto;    
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+    padding: 0 auto; 
+    margin-top: 5rem;
+    border: white 2px solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.589);
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.event-container button{
+    padding: 10px;
+    font-family: "Orbitron" ;
+    font-weight: bold;
+    color: #7F00FF;
+    border-radius: 5px;
+    border: none;
+    color: purple;
+    background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 13px );
+-webkit-backdrop-filter: blur( 13px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.btn-container button{
+    padding: 8px;
+    font-family: "Orbitron" ;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+button:active{
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    /* Lowering the shadow */ 
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #28c6ed;
+    color: black;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.transparent{
+    background-color: transparent;
+}
+
+.stop{
+    background-color: rgba(255, 13, 146, 0.705);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.start{
+    background-color: transparent;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+.reset{
+    background-color: #8c00ffd2;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.timer{
+    padding: 30px;
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
