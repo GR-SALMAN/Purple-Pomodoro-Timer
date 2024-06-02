@@ -26,7 +26,7 @@ A simple Pomodoro Timer web application to help you manage your time effectively
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/pomodoro-timer.git
+git clone https://github.com/GR-SALMAN/Purple-Pomodoro-Timer
 cd pomodoro-timer
 ```
 ### Open the Project
